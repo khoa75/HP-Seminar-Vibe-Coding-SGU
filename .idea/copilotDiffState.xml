@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Tuan01/copilot-workspace/java/socialapp/start.bat">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Tuan01/copilot-workspace/java/socialapp/start.bat" />
+              <option name="updatedContent" value="@echo off&#10;echo ================================&#10;echo  Spring Boot Social Media API&#10;echo ================================&#10;echo.&#10;&#10;cd /d &quot;%~dp0&quot;&#10;&#10;echo Starting application...&#10;echo Please wait for startup (30-60 seconds)...&#10;echo.&#10;&#10;call gradlew.bat bootRun&#10;&#10;echo.&#10;echo Application URLs:&#10;echo - API Base: http://localhost:8080/api&#10;echo - Swagger UI: http://localhost:8080/api/swagger-ui/index.html&#10;echo - Health Check: http://localhost:8080/api/actuator/health&#10;echo.&#10;pause" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
