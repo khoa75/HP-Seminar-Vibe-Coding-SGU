@@ -50,17 +50,17 @@ Refer to the [README](../README.md) doc for preparation.
 
 1. Copy custom instructions.
 
-    ```bash
-    # bash/zsh
-    cp -r $REPOSITORY_ROOT/docs/custom-instructions/java/. \
-          $REPOSITORY_ROOT/.github/
-    ```
+   ```bash
+   # bash/zsh
+   cp -r $REPOSITORY_ROOT/docs/custom-instructions/java/. \
+         $REPOSITORY_ROOT/.github/
+   ```
 
-    ```powershell
-    # PowerShell
-    Copy-Item -Path $REPOSITORY_ROOT/docs/custom-instructions/java/* `
-              -Destination $REPOSITORY_ROOT/.github/ -Recurse -Force
-    ```
+   ```powershell
+   # PowerShell
+   Copy-Item -Path $REPOSITORY_ROOT/docs/custom-instructions/java/* `
+             -Destination $REPOSITORY_ROOT/.github/ -Recurse -Force
+   ```
 
 ### Prepare Spring Boot Project
 
@@ -68,32 +68,32 @@ Refer to the [README](../README.md) doc for preparation.
 1. Make sure that the `context7` MCP server is up and running.
 1. Install Spring Boot CLI.
 
-    ```bash
-    sdk install springboot
-    ```
+   ```bash
+   sdk install springboot
+   ```
 
 1. Use prompt like below to scaffold a Spring Boot app project.
 
-    ```text
-    I'd like to scaffold a Spring Boot app. Follow the instructions below.
+   ```text
+   I'd like to scaffold a Spring Boot app. Follow the instructions below.
 
-    - Use context7.
-    - Your working directory is `java`.
-    - Identify all the steps first, which you're going to do.
-    - Use Spring Boot CLI to create the Spring Boot app project.
-    - Use Gradle as the Java package manager.
-    - Use the package name of `com.contoso.socialapp`.
-    - Use the artifact ID of `socialapp`.
-    - Use the group ID of `com.contoso`.
-    - Use the package type of `jar`.
-    - Use OpenJDK version of `21`.
-    - Add dependencies - `Spring Web`, `Spring Boot Actuator` and `Lombok`.
-    - Use the port number of `8080`.
-    - Make sure to allow CORS from everywhere.
-    - Build the Spring Boot app and verify if the app is built properly.
-    - Run this Spring Boot app and verify if the app is running properly.
-    - If either building or running the app fails, analyze the issues and fix them.
-    ```
+   - Use context7.
+   - Your working directory is `java`.
+   - Identify all the steps first, which you're going to do.
+   - Use Spring Boot CLI to create the Spring Boot app project.
+   - Use Gradle as the Java package manager.
+   - Use the package name of `com.contoso.socialapp`.
+   - Use the artifact ID of `socialapp`.
+   - Use the group ID of `com.contoso`.
+   - Use the package type of `jar`.
+   - Use OpenJDK version of `21`.
+   - Add dependencies - `Spring Web`, `Spring Boot Actuator` and `Lombok`.
+   - Use the port number of `8080`.
+   - Make sure to allow CORS from everywhere.
+   - Build the Spring Boot app and verify if the app is built properly.
+   - Run this Spring Boot app and verify if the app is running properly.
+   - If either building or running the app fails, analyze the issues and fix them.
+   ```
 
 1. Click the ![the "keep" button image](https://img.shields.io/badge/keep-blue) button of GitHub Copilot to take the changes.
 
@@ -104,36 +104,36 @@ Refer to the [README](../README.md) doc for preparation.
 1. Add [`product-requirements.md`](../product-requirements.md) and [`openapi.yaml`](../openapi.yaml) to GitHub Copilot.
 1. Use prompt like below to migrate FastAPI to Spring Boot.
 
-    ```text
-    Now, we're migrating the existing FastAPI-based API app to Spring Boot API app. Follow the instructions below for the migration.
-    
-    - Use context7.
-    - The existing FastAPI application is located at `python`.
-    - Your working directory is `java/socialapp`.
-    - Identify all the steps first, which you're going to do.
-    - Analyze the application structure of the existing FastAPI app.
-    - Migrate all the endpoints. Both corresponding endpoints should be exactly the same as each other.
-    - Use SQLite as the database.
-    - Use `sns_api.db` as the name of the SQLite database.
-    - The database should always be initialized whenever starting the app.
-    - Use `openapi.yaml` that describes all the endpoints and data schema.
-    - The API application should render Swagger UI page through a default endpoint.
-    - The API application should render exactly the same OpenAPI document through a default endpoint.
-    - DO NOT add anything not defined in `openapi.yaml`.
-    - DO NOT modify anything defined in `openapi.yaml`.
-    - If necessary, add more packages for OpenAPI and Swagger UI.
-    ```
+   ```text
+   Now, we're migrating the existing FastAPI-based API app to Spring Boot API app. Follow the instructions below for the migration.
+
+   - Use context7.
+   - The existing FastAPI application is located at `python`.
+   - Your working directory is `java/socialapp`.
+   - Identify all the steps first, which you're going to do.
+   - Analyze the application structure of the existing FastAPI app.
+   - Migrate all the endpoints. Both corresponding endpoints should be exactly the same as each other.
+   - Use SQLite as the database.
+   - Use `sns_api.db` as the name of the SQLite database.
+   - The database should always be initialized whenever starting the app.
+   - Use `openapi.yaml` that describes all the endpoints and data schema.
+   - The API application should render Swagger UI page through a default endpoint.
+   - The API application should render exactly the same OpenAPI document through a default endpoint.
+   - DO NOT add anything not defined in `openapi.yaml`.
+   - DO NOT modify anything defined in `openapi.yaml`.
+   - If necessary, add more packages for OpenAPI and Swagger UI.
+   ```
 
 1. Click the ![the "keep" button image](https://img.shields.io/badge/keep-blue) button of GitHub Copilot to take the changes.
 1. Once migration is over, use prompt like below to verify the migration result.
 
-    ```text
-    I'd like to build the Spring Boot app. Follow the instructions.
+   ```text
+   I'd like to build the Spring Boot app. Follow the instructions.
 
-    - Use context7.
-    - Build the Spring Boot app and verify if the app is built properly.
-    - If building the app fails, analyze the issues and fix them.
-    ```
+   - Use context7.
+   - Build the Spring Boot app and verify if the app is built properly.
+   - If building the app fails, analyze the issues and fix them.
+   ```
 
    > **NOTE**:
    >
@@ -146,11 +146,11 @@ Refer to the [README](../README.md) doc for preparation.
 
 1. Once the application is built, verify if it's written properly or not.
 
-    ```text
-    Run the Spring Boot app and verify if the app is properly running by checking all the endpoints. Also verify the OpenAPI endpoint renders exactly the same content as `openapi.yaml`.
+   ```text
+   Run the Spring Boot app and verify if the app is properly running by checking all the endpoints. Also verify the OpenAPI endpoint renders exactly the same content as `openapi.yaml`.
 
-    If app running fails, analyze the issues and fix them. Use context7.
-    ```
+   If app running fails, analyze the issues and fix them. Use context7.
+   ```
 
 1. Open a web browser and navigate to `http://localhost:8080`.
 1. Click the ![the "keep" button image](https://img.shields.io/badge/keep-blue) button of GitHub Copilot to take the changes.
