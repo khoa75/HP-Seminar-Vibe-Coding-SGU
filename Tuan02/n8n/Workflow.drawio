@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="Q-fWAdtghc64h5ACoN39">
+    <mxGraphModel dx="1925" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;strokeColor=default;" value="Luông hoạt động của Hệ thống chatbot tự dộng gợi ý phim" vertex="1">
+          <mxGeometry height="840" width="930" x="210" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-3" parent="vlgDunSlzHOWQ5805Uuf-2" style="swimlane;html=1;startSize=20;strokeColor=default;" value="Người dùng" vertex="1">
+          <mxGeometry height="820" width="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-6" parent="vlgDunSlzHOWQ5805Uuf-3" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Người dùng nhập vào chatbot yêu cầu gợi ý phim" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-4" parent="vlgDunSlzHOWQ5805Uuf-2" style="swimlane;html=1;startSize=20;strokeColor=default;" value="Telegram Bot" vertex="1">
+          <mxGeometry height="820" width="250" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-8" parent="vlgDunSlzHOWQ5805Uuf-4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Telegram Bot nhận yêu cầu và gửi tới workflow" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-18" parent="vlgDunSlzHOWQ5805Uuf-4" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Telegram hiển thị kết quả gơi ý phim cho người dùng" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-20" parent="vlgDunSlzHOWQ5805Uuf-4" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=default;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="110" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-19" edge="1" parent="vlgDunSlzHOWQ5805Uuf-4" source="vlgDunSlzHOWQ5805Uuf-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" target="vlgDunSlzHOWQ5805Uuf-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="750" as="sourcePoint" />
+            <mxPoint x="125" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-7" edge="1" parent="vlgDunSlzHOWQ5805Uuf-2" source="vlgDunSlzHOWQ5805Uuf-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" target="vlgDunSlzHOWQ5805Uuf-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="190" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-9" edge="1" parent="vlgDunSlzHOWQ5805Uuf-2" source="vlgDunSlzHOWQ5805Uuf-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" target="vlgDunSlzHOWQ5805Uuf-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="240" as="sourcePoint" />
+            <mxPoint x="620" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-5" parent="vlgDunSlzHOWQ5805Uuf-2" style="swimlane;html=1;startSize=20;strokeColor=default;" value="Workflow N8N" vertex="1">
+          <mxGeometry height="820" width="420" x="510" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-10" parent="vlgDunSlzHOWQ5805Uuf-5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Workflow nhận được tin nhắn và bắt đầu format lại thành dạng JSON" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-11" edge="1" parent="vlgDunSlzHOWQ5805Uuf-5" source="vlgDunSlzHOWQ5805Uuf-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" target="vlgDunSlzHOWQ5805Uuf-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="150" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-12" parent="vlgDunSlzHOWQ5805Uuf-5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Sau khi đã format lại thành công workflow nhận dữ liệu về phim đang chiếu hiện tại thông qua API Get" vertex="1">
+          <mxGeometry height="90" width="140" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-13" parent="vlgDunSlzHOWQ5805Uuf-5" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=default;" value="TDBM" vertex="1">
+          <mxGeometry height="80" width="60" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-14" edge="1" parent="vlgDunSlzHOWQ5805Uuf-5" source="vlgDunSlzHOWQ5805Uuf-12" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;" target="vlgDunSlzHOWQ5805Uuf-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="300" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-15" edge="1" parent="vlgDunSlzHOWQ5805Uuf-5" source="vlgDunSlzHOWQ5805Uuf-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" target="vlgDunSlzHOWQ5805Uuf-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="560" as="sourcePoint" />
+            <mxPoint x="230" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-16" parent="vlgDunSlzHOWQ5805Uuf-5" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" value="Sau khi đã có dữ liệu workflow format tiến hành format lại để có thể hiên thị đẹp hơn trên telegram" vertex="1">
+          <mxGeometry height="80" width="150" x="160" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vlgDunSlzHOWQ5805Uuf-17" edge="1" parent="vlgDunSlzHOWQ5805Uuf-2" source="vlgDunSlzHOWQ5805Uuf-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" target="vlgDunSlzHOWQ5805Uuf-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="690" as="sourcePoint" />
+            <mxPoint x="390" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
