@@ -1,7 +1,8 @@
 import inspect
-
+import os
 from openai import OpenAI
 from openai.types.chat import ChatCompletion
+from dotenv import load_dotenv
 
 from ch7.src.manhattan import get_manhattan_distance
 
@@ -29,7 +30,10 @@ def get_user_prompt(func: callable) -> str:
 
 
 if __name__ == "__main__":
-    client: OpenAI = OpenAI()
+    load_dotenv()
+    client: OpenAI = OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY")
+    )
 
     system_prompt = f"{SURROUND} {SINGLE_TASK}"
     user_prompt = get_user_prompt(get_manhattan_distance)
