@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Contoso.BlazorApp
+build_property.RootNamespace = Contoso.BlazorApp
+build_property.ProjectDir = E:\worklist\sguList\VibeCoding\Documents\HP-Seminar-Vibe-Coding-SGU\Tuan01\copilot-workspace\complete\dotnet\Contoso.BlazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\worklist\sguList\VibeCoding\Documents\HP-Seminar-Vibe-Coding-SGU\Tuan01\copilot-workspace\complete\dotnet\Contoso.BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/CommentIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tZW50SWNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/CommentInput.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tZW50SW5wdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/CommentItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21tZW50SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/FloatingActionButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGbG9hdGluZ0FjdGlvbkJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/HeartIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZWFydEljb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/NameInputModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYW1lSW5wdXRNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/PostDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQb3N0RGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/PostCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb3N0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/PostingModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb3N0aW5nTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-yfwfxqj31n
+
+[E:/worklist/sguList/VibeCoding/Documents/HP-Seminar-Vibe-Coding-SGU/Tuan01/copilot-workspace/complete/dotnet/Contoso.BlazorApp/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7tvccr5cm2
