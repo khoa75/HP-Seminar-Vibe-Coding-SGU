@@ -14,8 +14,8 @@ print("top video: ", get_top_video('interactions_100.csv'))
 # Profiling memory consumption across multiple runs
 paths = [
     'interactions_100.csv',
-    #    'interactions_1000.csv',
-    #    'interactions_10_000.csv'
+    'interactions_1000.csv',
+    'interactions_10_000.csv'
 ]
 
 for p in paths:
