@@ -1,7 +1,9 @@
 import inspect
+import os
 from types import ModuleType
 from typing import Dict
 
+from dotenv import load_dotenv
 from openai import OpenAI
 from openai.types.chat import ChatCompletion
 
@@ -36,7 +38,10 @@ def get_user_prompt(info: Dict[str, str]) -> str:
 
 
 if __name__ == "__main__":
-    client: OpenAI = OpenAI()
+    load_dotenv()
+    client: OpenAI = OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY")
+    )
 
     system_prompt = f"{SURROUND} {SINGLE_TASK}"
 
