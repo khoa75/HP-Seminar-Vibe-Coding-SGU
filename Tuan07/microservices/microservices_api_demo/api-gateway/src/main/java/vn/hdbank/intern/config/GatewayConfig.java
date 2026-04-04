@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package vn.hdbank.intern.config;
 
 import org.springframework.context.annotation.Bean;
@@ -28,3 +29,35 @@ public class GatewayConfig {
 }
 
 
+=======
+package vn.hdbank.intern.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
+import org.springframework.security.config.web.server.ServerHttpSecurity;
+import org.springframework.security.web.server.SecurityWebFilterChain;
+
+@Configuration
+@EnableWebFluxSecurity
+public class GatewayConfig {
+
+    @Bean
+    public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity serverHttpSecurity) {
+        serverHttpSecurity
+                .csrf(ServerHttpSecurity.CsrfSpec::disable)
+                .authorizeExchange(exchange ->
+                        exchange.pathMatchers("/eureka/**")
+                                .permitAll()
+                                .anyExchange()
+                                .authenticated())
+                .oauth2ResourceServer(spec -> spec.jwt(Customizer.withDefaults()));
+        return serverHttpSecurity.build();
+    }
+
+
+}
+
+
+>>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)

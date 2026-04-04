@@ -1,0 +1,21 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      productServiceCircuitBreaker:
+        # Kích thước cửa sổ trượt: 10 request gần nhất được tính
+        sliding-window-size: 10
+
+        # Mở mạch khi >= 50% request thất bại
+        failure-rate-threshold: 50
+
+        # Giữ mạch ở trạng thái OPEN trong 10 giây trước khi thử lại (HALF-OPEN)
+        wait-duration-in-open-state: 10s
+
+        # Số request được phép thử trong trạng thái HALF-OPEN
+        permitted-number-of-calls-in-half-open-state: 3
+
+        # Bắt đầu tính sau khi có ít nhất 5 request (tránh mở mạch quá sớm)
+        minimum-number-of-calls: 5
+
+        # Tự động chuyển sang HALF-OPEN sau khi hết wait duration
+        automatic-transition-from-open-to-half-open-enabled: true
