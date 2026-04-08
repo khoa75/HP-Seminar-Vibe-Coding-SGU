@@ -50,7 +50,11 @@ wheels/
 .idea/
 *.swp
 *.swo
-*~
+*~ 
+
+target/
+build/
+*.jar
 
 # OS
 .DS_Store
