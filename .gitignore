@@ -1,2 +1,6 @@
-Tuan04/Supercharged-Coding-with-Gen-AI
-Tuan05/Supercharged-Coding-with-Gen-AI
+__pycachce__/
+*.pyc 
+*.pyo
+*.pyd
+
+venv/
