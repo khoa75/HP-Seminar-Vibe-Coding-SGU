@@ -1,0 +1,11 @@
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/InventoryServiceApplication.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/config/RedisConfig.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/config/RestemplateConfig.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/config/SecurityConfig.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/controller/InventoryController.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/dto/BaseResponse.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/dto/InventoryDTO.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/model/Inventory.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/repository/InventoryMapper.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/repository/InventoryRepo.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/inventory-service/src/main/java/vn/hdbank/intern/inventoryservice/service/InventoryService.java
