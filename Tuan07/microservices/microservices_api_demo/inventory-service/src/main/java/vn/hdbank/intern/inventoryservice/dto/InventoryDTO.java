@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.dto;
 
 import lombok.AllArgsConstructor;
@@ -18,6 +19,8 @@ public class InventoryDTO {
     private Integer quantity;
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.dto;
 
 import lombok.AllArgsConstructor;
@@ -36,4 +39,7 @@ public class InventoryDTO {
     private String skuCode;
     private Integer quantity;
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.context.annotation.Bean;
@@ -40,6 +41,8 @@ public class SecurityConfig {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.context.annotation.Bean;
@@ -80,4 +83,7 @@ public class SecurityConfig {
         return source;
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

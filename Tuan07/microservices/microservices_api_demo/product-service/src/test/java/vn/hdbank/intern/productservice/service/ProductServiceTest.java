@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.productservice.service;
 
 import io.restassured.RestAssured;
@@ -50,6 +51,8 @@ import org.testcontainers.containers.MongoDBContainer;
                 .body("message", Matchers.equalTo("Add Product success"));
     }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.productservice.service;
 
 import io.restassured.RestAssured;
@@ -100,5 +103,8 @@ import org.testcontainers.containers.MongoDBContainer;
                 .body("status", Matchers.equalTo("success"))
                 .body("message", Matchers.equalTo("Add Product success"));
     }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev
 }

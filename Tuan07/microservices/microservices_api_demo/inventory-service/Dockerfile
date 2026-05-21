@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM maven:3.9.9-eclipse-temurin-21 AS builder
 WORKDIR /build
 
@@ -21,6 +22,8 @@ EXPOSE 8083
 
 ENTRYPOINT ["java", "-jar", "/app/inventory-service.jar"]
 =======
+=======
+>>>>>>> dev
 # Chọn image base (sử dụng JDK image)
 FROM openjdk:21-jdk-slim
 
@@ -34,5 +37,9 @@ COPY target/inventory-service-0.0.1-SNAPSHOT.jar /app/inventory-service.jar
 ENTRYPOINT ["java", "-jar", "/app/inventory-service.jar"]
 
 # Cấu hình cổng mà ứng dụng sẽ lắng nghe
+<<<<<<< HEAD
 EXPOSE 8083
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+EXPOSE 8083
+>>>>>>> dev

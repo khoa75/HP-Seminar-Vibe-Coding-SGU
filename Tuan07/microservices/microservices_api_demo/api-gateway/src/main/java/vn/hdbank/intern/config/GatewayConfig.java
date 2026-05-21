@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.config;
 
 import org.springframework.context.annotation.Bean;
@@ -30,6 +31,8 @@ public class GatewayConfig {
 
 
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.config;
 
 import org.springframework.context.annotation.Bean;
@@ -60,4 +63,7 @@ public class GatewayConfig {
 }
 
 
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

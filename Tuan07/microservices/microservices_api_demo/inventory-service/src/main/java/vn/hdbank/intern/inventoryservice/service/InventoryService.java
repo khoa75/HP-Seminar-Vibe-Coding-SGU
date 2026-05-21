@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.service;
 
 import lombok.AllArgsConstructor;
@@ -65,6 +66,8 @@ public class InventoryService {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.service;
 
 import lombok.AllArgsConstructor;
@@ -130,4 +133,7 @@ public class InventoryService {
     }
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

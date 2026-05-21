@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.event;
 
 import lombok.RequiredArgsConstructor;
@@ -27,6 +28,8 @@ public class ProcessConsumer {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.event;
 
 import lombok.RequiredArgsConstructor;
@@ -54,4 +57,7 @@ public class ProcessConsumer {
         System.out.println("Email sent successfully!");
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

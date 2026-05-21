@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -18,6 +19,8 @@ public interface InventoryRepo extends JpaRepository<Inventory, Long> {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -36,4 +39,7 @@ public interface InventoryRepo extends JpaRepository<Inventory, Long> {
 
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

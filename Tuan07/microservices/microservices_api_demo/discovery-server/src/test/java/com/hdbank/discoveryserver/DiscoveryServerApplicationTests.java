@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.hdbank.discoveryserver;
 
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,8 @@ public class DiscoveryServerApplicationTests {
 
 }
 =======
+=======
+>>>>>>> dev
 package com.hdbank.discoveryserver;
 
 import org.junit.jupiter.api.Test;
@@ -30,4 +33,7 @@ public class DiscoveryServerApplicationTests {
 //    }
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.config;
 
 import org.springframework.context.annotation.Bean;
@@ -19,6 +20,8 @@ public class SecurityConfig {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.config;
 
 import org.springframework.context.annotation.Bean;
@@ -38,4 +41,7 @@ public class SecurityConfig {
 
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

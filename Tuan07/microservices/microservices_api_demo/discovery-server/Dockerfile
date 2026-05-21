@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM maven:3.9.9-eclipse-temurin-21 AS builder
 WORKDIR /build
 
@@ -24,6 +25,8 @@ EXPOSE 8761
 
 ENTRYPOINT ["java", "-jar", "/app/discovery-server.jar"]
 =======
+=======
+>>>>>>> dev
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:21-jdk-slim
 
@@ -44,4 +47,7 @@ EXPOSE 8761
 
 # Chạy ứng dụng
 ENTRYPOINT ["java", "-jar", "/app/discovery-server.jar"]
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

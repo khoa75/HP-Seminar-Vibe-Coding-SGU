@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.cache.annotation.EnableCaching;
@@ -30,6 +31,8 @@ public class RedisConfig {
 }
 
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.cache.annotation.EnableCaching;
@@ -60,4 +63,7 @@ public class RedisConfig {
     }
 }
 
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

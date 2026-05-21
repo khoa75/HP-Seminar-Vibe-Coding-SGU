@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.model;
 
 import jakarta.persistence.*;
@@ -24,6 +25,8 @@ public class Inventory {
     private Integer quantity;
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.model;
 
 import jakarta.persistence.*;
@@ -48,4 +51,7 @@ public class Inventory {
     @Column(name="quantity")
     private Integer quantity;
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

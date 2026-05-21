@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.dto;
 
 
@@ -22,6 +23,8 @@ public class OrderDTO {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.dto;
 
 
@@ -44,4 +47,7 @@ public class OrderDTO {
     private List<OrderLineItemsDTO> orderLineItemsDtoList;
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

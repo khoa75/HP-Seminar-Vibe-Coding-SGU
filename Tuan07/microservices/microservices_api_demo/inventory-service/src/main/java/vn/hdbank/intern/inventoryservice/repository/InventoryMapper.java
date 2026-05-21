@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.repository;
 
 import org.mapstruct.Mapper;
@@ -13,6 +14,8 @@ public interface InventoryMapper {
 //
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.repository;
 
 import org.mapstruct.Mapper;
@@ -26,4 +29,7 @@ public interface InventoryMapper {
 //    Inventory toEntity(InventoryDTO inventoryDTO);
 //
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

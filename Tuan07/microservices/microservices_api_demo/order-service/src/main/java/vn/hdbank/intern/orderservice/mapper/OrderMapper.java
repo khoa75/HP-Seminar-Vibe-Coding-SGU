@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.mapper;
 
 import org.mapstruct.Mapper;
@@ -25,6 +26,8 @@ public interface OrderMapper {
 //    Order toEntity(OrderDTO orderDTO);
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.mapper;
 
 import org.mapstruct.Mapper;
@@ -50,4 +53,7 @@ public interface OrderMapper {
 //    OrderDTO toDTO(Order order);
 //    Order toEntity(OrderDTO orderDTO);
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

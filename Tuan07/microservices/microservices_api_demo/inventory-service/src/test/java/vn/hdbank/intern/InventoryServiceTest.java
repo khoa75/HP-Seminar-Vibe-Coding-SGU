@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern;
 
 
@@ -67,6 +68,8 @@ class InventoryServiceTest {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern;
 
 
@@ -134,4 +137,7 @@ class InventoryServiceTest {
         assertFalse(negativeResponse.isInStock());
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

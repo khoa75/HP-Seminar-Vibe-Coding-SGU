@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern;
 
 import org.springframework.boot.SpringApplication;
@@ -21,6 +22,8 @@ public class ApiGatewayApplication {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern;
 
 import org.springframework.boot.SpringApplication;
@@ -42,4 +45,7 @@ public class ApiGatewayApplication {
 
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

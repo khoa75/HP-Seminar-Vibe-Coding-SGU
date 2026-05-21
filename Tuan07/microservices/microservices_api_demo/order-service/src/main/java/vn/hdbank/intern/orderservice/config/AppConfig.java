@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -15,6 +16,8 @@ public class AppConfig {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -30,4 +33,7 @@ public class AppConfig {
         return new RestTemplate();
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

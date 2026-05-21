@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.productservice.dto;
 
 import lombok.AllArgsConstructor;
@@ -20,6 +21,8 @@ public class ProductDTO {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.productservice.dto;
 
 import lombok.AllArgsConstructor;
@@ -40,4 +43,7 @@ public class ProductDTO {
     private BigDecimal price;
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

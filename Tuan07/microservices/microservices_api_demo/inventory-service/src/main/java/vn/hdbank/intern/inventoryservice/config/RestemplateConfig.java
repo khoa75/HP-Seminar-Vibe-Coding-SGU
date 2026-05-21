@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -16,6 +17,8 @@ public class RestemplateConfig {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -32,4 +35,7 @@ public class RestemplateConfig {
         return new RestTemplate();
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

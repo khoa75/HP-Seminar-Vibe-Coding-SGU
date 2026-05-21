@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.dto;
 
 
@@ -15,6 +16,8 @@ public class BaseResponse {
     private int quantity;
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.dto;
 
 
@@ -30,4 +33,7 @@ public class BaseResponse {
     private boolean isInStock;
     private int quantity;
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

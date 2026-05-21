@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -31,6 +32,8 @@ public class KafkaProducerConfig {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -62,4 +65,7 @@ public class KafkaProducerConfig {
         return new KafkaTemplate<>(producerFactory());
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

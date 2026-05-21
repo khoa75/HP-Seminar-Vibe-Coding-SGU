@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.model;
 
 import jakarta.persistence.*;
@@ -31,6 +32,8 @@ public class OrderLineItems {
     private Order order;
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.model;
 
 import jakarta.persistence.*;
@@ -62,4 +65,7 @@ public class OrderLineItems {
     @JoinColumn(name = "order_number", nullable = false)
     private Order order;
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

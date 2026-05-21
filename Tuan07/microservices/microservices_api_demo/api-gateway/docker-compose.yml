@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #version: "3.8"
 #services:
 #  #Keycloak
@@ -15,6 +16,8 @@
 #      KC_DB_USERNAME: thaituan
 #      KC_DB_PASSWORD: 123
 =======
+=======
+>>>>>>> dev
 #version: "3.8"
 #services:
 #  #Keycloak
@@ -30,5 +33,8 @@
 #      KC_DB_URL: jdbc:postgresql://host.docker.internal:5432/keycloak
 #      KC_DB_USERNAME: thaituan
 #      KC_DB_PASSWORD: 123
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev
 #    command: [ "start-dev" ]

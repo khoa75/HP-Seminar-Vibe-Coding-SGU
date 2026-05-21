@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.dto;
 
 import jakarta.validation.constraints.Size;
@@ -24,6 +25,8 @@ public class OrderLineItemsDTO {
     private Integer quantity;
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.dto;
 
 import jakarta.validation.constraints.Size;
@@ -48,4 +51,7 @@ public class OrderLineItemsDTO {
     @Size(max = 100, message = "Error")
     private Integer quantity;
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

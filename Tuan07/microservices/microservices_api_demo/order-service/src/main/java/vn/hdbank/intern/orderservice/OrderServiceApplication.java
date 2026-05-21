@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice;
 
 import org.springframework.boot.SpringApplication;
@@ -17,6 +18,8 @@ public class OrderServiceApplication {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice;
 
 import org.springframework.boot.SpringApplication;
@@ -34,4 +37,7 @@ public class OrderServiceApplication {
 
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

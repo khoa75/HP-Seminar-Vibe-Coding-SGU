@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.inventoryservice.controller;
 
 import jakarta.annotation.PostConstruct;
@@ -55,6 +56,8 @@ public class InventoryController {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.inventoryservice.controller;
 
 import jakarta.annotation.PostConstruct;
@@ -110,4 +113,7 @@ public class InventoryController {
 
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

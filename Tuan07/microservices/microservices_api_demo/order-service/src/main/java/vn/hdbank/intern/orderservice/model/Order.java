@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.model;
 
 import jakarta.persistence.*;
@@ -27,6 +28,8 @@ public class Order {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.model;
 
 import jakarta.persistence.*;
@@ -54,4 +57,7 @@ public class Order {
     private List<OrderLineItems> orderLineItems;
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

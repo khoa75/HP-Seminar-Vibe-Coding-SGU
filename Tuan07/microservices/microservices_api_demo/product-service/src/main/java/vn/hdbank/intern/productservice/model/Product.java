@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.productservice.model;
 
 import lombok.AllArgsConstructor;
@@ -27,6 +28,8 @@ public class Product {
 
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.productservice.model;
 
 import lombok.AllArgsConstructor;
@@ -54,4 +57,7 @@ public class Product {
     private BigDecimal price;
 
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

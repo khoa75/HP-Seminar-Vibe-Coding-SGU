@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM maven:3.9.9-eclipse-temurin-21 AS builder
 WORKDIR /build
 
@@ -21,6 +22,8 @@ EXPOSE 8181
 
 ENTRYPOINT ["java", "-jar", "/app/api-gateway.jar"]
 =======
+=======
+>>>>>>> dev
 # Chọn image base (sử dụng JDK image)
 FROM openjdk:21-jdk-slim
 
@@ -34,5 +37,9 @@ COPY target/api-gateway-0.0.1-SNAPSHOT.jar /app/api-gateway.jar
 ENTRYPOINT ["java", "-jar", "/app/api-gateway.jar"]
 
 # Cấu hình cổng mà ứng dụng sẽ lắng nghe
+<<<<<<< HEAD
 EXPOSE 8181
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+EXPOSE 8181
+>>>>>>> dev

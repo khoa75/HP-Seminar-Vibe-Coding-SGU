@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #services:
 #  postgresql:
 #    image: postgres
@@ -94,6 +95,8 @@
 #networks:
 #  kafka-network:
 =======
+=======
+>>>>>>> dev
 #services:
 #  postgresql:
 #    image: postgres
@@ -188,5 +191,8 @@
 #
 #networks:
 #  kafka-network:
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev
 #    driver: bridge

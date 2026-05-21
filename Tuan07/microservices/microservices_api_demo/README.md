@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Order Processing System
 
@@ -181,6 +182,8 @@ Zipkin for distributed tracing.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 =======
+=======
+>>>>>>> dev
 
 # Order Processing System
 
@@ -362,4 +365,7 @@ Zipkin for distributed tracing.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.productservice.repository;
 
 import org.mapstruct.Mapper;
@@ -37,6 +38,8 @@ public class ProductMapper {
         }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.productservice.repository;
 
 import org.mapstruct.Mapper;
@@ -74,4 +77,7 @@ public class ProductMapper {
             );
         }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.orderservice.listener;
 
 import lombok.AllArgsConstructor;
@@ -15,6 +16,8 @@ public class OrderEventProducer {
     }
 }
 =======
+=======
+>>>>>>> dev
 package vn.hdbank.intern.orderservice.listener;
 
 import lombok.AllArgsConstructor;
@@ -30,4 +33,7 @@ public class OrderEventProducer {
         kafkaTemplate.send("notificationTopic", message);
     }
 }
+<<<<<<< HEAD
 >>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev
