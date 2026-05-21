@@ -1,0 +1,5 @@
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/ProjectWeb-BE/notification-service/src/main/java/vn/tt/practice/notificationservice/NotificationServiceApplication.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/ProjectWeb-BE/notification-service/src/main/java/vn/tt/practice/notificationservice/config/KafkaConsumerConfig.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/ProjectWeb-BE/notification-service/src/main/java/vn/tt/practice/notificationservice/config/UserClient.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/ProjectWeb-BE/notification-service/src/main/java/vn/tt/practice/notificationservice/consumer/OrderEventConsumer.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/ProjectWeb-BE/notification-service/src/main/java/vn/tt/practice/notificationservice/service/EmailService.java

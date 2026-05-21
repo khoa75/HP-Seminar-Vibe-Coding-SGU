@@ -1,0 +1,9 @@
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/ProductServiceApplication.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/config/SecurityConfig.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/controller/ProductController.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/dto/BaseResponse.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/dto/ProductDTO.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/model/Product.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/repository/ProductMapper.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/repository/ProductRepo.java
+/home/khoa/Projects/Seminar-Vibe-Coding/Tuan07/microservices/microservices_api_demo/product-service/src/main/java/vn/hdbank/intern/productservice/service/ProductService.java

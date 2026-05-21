@@ -1,0 +1,9 @@
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\config\RedisConfig.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\config\SecurityConfig.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\controller\ProductController.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\dto\ProductDTO.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\mapper\ProductMapper.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\model\Product.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\ProductServiceApplication.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\repository\ProductRepo.java
+D:\HKII_4\Seminar\Tuan07\microservices\ProjectWeb-BE\product-service\src\main\java\vn\tt\practice\productservice\service\ProductService.java

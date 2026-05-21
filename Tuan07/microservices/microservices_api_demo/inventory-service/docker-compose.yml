@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 #services:
 #  postgresql:
 #    image: postgres
@@ -8,4 +10,21 @@
 #    environment:
 #      POSTGRES_DB: inventory
 #      POSTGRES_USER: thaituan
+=======
+=======
+>>>>>>> dev
+#services:
+#  postgresql:
+#    image: postgres
+#    container_name: InventoryData
+#    restart: always
+#    ports:
+#      - "5442:5432"
+#    environment:
+#      POSTGRES_DB: inventory
+#      POSTGRES_USER: thaituan
+<<<<<<< HEAD
+>>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev
 #      POSTGRES_PASSWORD: 123

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern.event;
 
 import lombok.RequiredArgsConstructor;
@@ -25,3 +27,37 @@ public class ProcessConsumer {
         System.out.println("Email sent successfully!");
     }
 }
+=======
+=======
+>>>>>>> dev
+package vn.hdbank.intern.event;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.stereotype.Service;
+
+@Service
+@Slf4j
+@RequiredArgsConstructor
+public class ProcessConsumer {
+
+    private final JavaMailSender mailSender;
+
+    public void sendEmail(String to, String subject, String text) {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setFrom("smtp@mailtrap.io");
+        message.setTo(to);
+        message.setSubject(subject);
+        message.setText(text);
+
+        mailSender.send(message);
+
+        System.out.println("Email sent successfully!");
+    }
+}
+<<<<<<< HEAD
+>>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

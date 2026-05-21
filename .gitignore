@@ -1,4 +1,3 @@
-__pycachce__/
 *.pyc 
 *.pyo
 *.pyd
@@ -50,7 +49,13 @@ wheels/
 .idea/
 *.swp
 *.swo
-*~
+*~ 
+
+target/
+build/
+*.jar
+
+node_modules/
 
 # OS
 .DS_Store

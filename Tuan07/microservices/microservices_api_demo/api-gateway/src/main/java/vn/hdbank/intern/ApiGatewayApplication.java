@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 package vn.hdbank.intern;
 
 import org.springframework.boot.SpringApplication;
@@ -19,3 +21,31 @@ public class ApiGatewayApplication {
 
 
 }
+=======
+=======
+>>>>>>> dev
+package vn.hdbank.intern;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+@RestController
+public class ApiGatewayApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ApiGatewayApplication.class, args);
+    }
+
+
+}
+<<<<<<< HEAD
+>>>>>>> 5097b7c3 (Tuan07/Init commit for Tuan07)
+=======
+>>>>>>> dev

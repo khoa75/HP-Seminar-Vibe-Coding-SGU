@@ -1,0 +1,4 @@
+vn/hdbank/intern/config/KafkaConsumerConfig.class
+vn/hdbank/intern/event/OrderEventConsumer.class
+vn/hdbank/intern/event/ProcessConsumer.class
+vn/hdbank/intern/NotificationServiceApplication.class

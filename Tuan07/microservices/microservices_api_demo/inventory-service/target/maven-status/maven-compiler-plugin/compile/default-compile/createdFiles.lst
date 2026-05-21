@@ -1,0 +1,14 @@
+vn/hdbank/intern/inventoryservice/repository/InventoryRepo.class
+vn/hdbank/intern/inventoryservice/controller/InventoryController.class
+vn/hdbank/intern/inventoryservice/dto/BaseResponse.class
+vn/hdbank/intern/inventoryservice/dto/InventoryDTO.class
+vn/hdbank/intern/inventoryservice/service/InventoryService.class
+vn/hdbank/intern/inventoryservice/repository/InventoryMapper.class
+vn/hdbank/intern/inventoryservice/dto/BaseResponse$BaseResponseBuilder.class
+vn/hdbank/intern/inventoryservice/config/RedisConfig.class
+vn/hdbank/intern/inventoryservice/model/Inventory$InventoryBuilder.class
+vn/hdbank/intern/inventoryservice/config/SecurityConfig.class
+vn/hdbank/intern/inventoryservice/config/RestemplateConfig.class
+vn/hdbank/intern/inventoryservice/model/Inventory.class
+vn/hdbank/intern/inventoryservice/InventoryServiceApplication.class
+vn/hdbank/intern/inventoryservice/dto/InventoryDTO$InventoryDTOBuilder.class

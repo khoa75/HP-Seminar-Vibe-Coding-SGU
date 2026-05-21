@@ -1,0 +1,12 @@
+vn/hdbank/intern/productservice/dto/BaseResponse.class
+vn/hdbank/intern/productservice/ProductServiceApplication.class
+vn/hdbank/intern/productservice/dto/BaseResponse$BaseResponseBuilder.class
+vn/hdbank/intern/productservice/service/ProductService.class
+vn/hdbank/intern/productservice/dto/ProductDTO$ProductDTOBuilder.class
+vn/hdbank/intern/productservice/config/SecurityConfig.class
+vn/hdbank/intern/productservice/repository/ProductMapper.class
+vn/hdbank/intern/productservice/repository/ProductRepo.class
+vn/hdbank/intern/productservice/controller/ProductController.class
+vn/hdbank/intern/productservice/dto/ProductDTO.class
+vn/hdbank/intern/productservice/model/Product$ProductBuilder.class
+vn/hdbank/intern/productservice/model/Product.class
